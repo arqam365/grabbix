@@ -1,6 +1,6 @@
 "use client";
 
-const About = () => {
+const Page = () => {
     return (
         <div className="min-h-screen flex flex-col justify-center items-center bg-gray-100 dark:bg-gray-900 p-4">
             <h1 className="text-4xl font-bold mb-8 text-gray-900 dark:text-white">
@@ -20,11 +20,11 @@ const About = () => {
 
             <div className="text-lg text-gray-800 dark:text-gray-300 text-center">
                 <p>Email: <a href="mailto:support@grabbix.com" className="text-blue-500 dark:text-blue-400 hover:underline">support@grabbix.com</a></p>
-                <p>Phone: <a href="tel:+1234567890" className="text-blue-500 dark:text-blue-400 hover:underline">+1 234 567 890</a></p>
-                <p>Address: 123 Grabbix Street, ShopCity, SC 12345</p>
+                <p>Phone: <a href="tel:+916306217765" className="text-blue-500 dark:text-blue-400 hover:underline">+91 6306217765</a></p>
+                <p>Address: Awas Vikas Colony, Labour Chauraha, Shivaji Nagar, Jhansi</p>
             </div>
         </div>
     );
 };
 
-export default About;
+export default Page;
