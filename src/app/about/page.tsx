@@ -19,7 +19,7 @@ const Page = () => {
             </h2>
 
             <div className="text-lg text-gray-800 dark:text-gray-300 text-center">
-                <p>Email: <a href="mailto:support@grabbix.com" className="text-blue-500 dark:text-blue-400 hover:underline">support@grabbix.com</a></p>
+                <p>Email: <a href="mailto:support@grabbix.store" className="text-blue-500 dark:text-blue-400 hover:underline">support@grabbix.store</a></p>
                 <p>Phone: <a href="tel:+916306217765" className="text-blue-500 dark:text-blue-400 hover:underline">+91 6306217765</a></p>
                 <p>Address: Awas Vikas Colony, Labour Chauraha, Shivaji Nagar, Jhansi</p>
             </div>
