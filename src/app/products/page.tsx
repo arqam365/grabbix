@@ -3,6 +3,7 @@
 import { useEffect, useState } from "react";
 import { collection, getDocs } from "firebase/firestore";
 import { db } from "@/firebase"; // Ensure this path matches your project structure
+import Image from "next/image"; // Import the Next.js Image component
 
 type Product = {
     id: string; // Firestore IDs are strings, not numbers
@@ -53,9 +54,11 @@ const ProductsPage = () => {
             <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
                 {products.map((product) => (
                     <div key={product.id} className="bg-white dark:bg-gray-800 p-6 rounded-lg shadow-lg">
-                        <img
+                        <Image
                             src={product.imageUrl}
                             alt={product.name}
+                            width={600} // Replace with the appropriate width
+                            height={400} // Replace with the appropriate height
                             className="w-full h-48 object-cover rounded-md mb-4"
                         />
                         <h2 className="text-xl font-semibold mb-2">{product.name}</h2>
